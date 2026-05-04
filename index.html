@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Franz Much — Data Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@300;400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="lang-en">
+
+<!-- NAV -->
+<nav>
+  <span class="nav-logo">fm.dev</span>
+  <ul class="nav-links">
+    <li><a href="#about"><span data-lang="en">About</span><span data-lang="es">Sobre mí</span></a></li>
+    <li><a href="#skills"><span data-lang="en">Skills</span><span data-lang="es">Habilidades</span></a></li>
+    <li><a href="#experience"><span data-lang="en">Experience</span><span data-lang="es">Experiencia</span></a></li>
+    <li><a href="#projects"><span data-lang="en">Projects</span><span data-lang="es">Proyectos</span></a></li>
+    <li><a href="#contact"><span data-lang="en">Contact</span><span data-lang="es">Contacto</span></a></li>
+  </ul>
+  <button class="lang-toggle" id="langBtn">ES</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-content">
+    <div class="hero-tag">
+      <span data-lang="en">Data Engineer · Guatemala City</span>
+      <span data-lang="es">Ingeniero de Datos · Ciudad de Guatemala</span>
+    </div>
+    <h1>Franz<br><em>Much</em></h1>
+    <p class="hero-sub">
+      <span data-lang="en">I design and operate data pipelines that turn raw operational noise into reliable, decision-ready intelligence — across batch, streaming, and ML-driven systems.</span>
+      <span data-lang="es">Diseño y opero pipelines de datos que convierten ruido operativo en inteligencia confiable y lista para decisiones — en sistemas batch, streaming y de ML.</span>
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary">
+        <span data-lang="en">View Projects</span>
+        <span data-lang="es">Ver Proyectos</span>
+      </a>
+      <a href="#contact" class="btn-secondary">
+        <span data-lang="en">Get in Touch</span>
+        <span data-lang="es">Contactar</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-num">01</span>
+      <h2 class="section-title"><span data-lang="en">About Me</span><span data-lang="es">Sobre Mí</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p data-lang="en">I'm a Data Engineer with over 4 years of experience building data infrastructure that powers analytics, machine learning, and operational intelligence. My background in <strong>Chemical Engineering</strong> — earned Cum Laude — gives me an uncommon foundation: I approach data systems like process engineering problems, obsessing over throughput, reliability, and failure modes.</p>
+        <p data-lang="en">I've worked across industries — finance, environmental services, consumer goods — designing ETL/ELT pipelines, dimensional data models, and near-real-time ingestion systems. Currently I'm building high-volume data infrastructure at a major Guatemalan corporation, while simultaneously advancing through a BSc in Computer Science.</p>
+        <p data-lang="es">Soy Ingeniero de Datos con más de 4 años de experiencia construyendo infraestructura de datos para analítica, machine learning e inteligencia operativa. Mi formación en <strong>Ingeniería Química</strong> — con distinción Cum Laude — me da una base inusual: abordo los sistemas de datos como problemas de ingeniería de procesos, priorizando rendimiento, confiabilidad y tolerancia a fallos.</p>
+        <p data-lang="es">He trabajado en distintas industrias — finanzas, servicios ambientales, bienes de consumo — diseñando pipelines ETL/ELT, modelos de datos dimensionales y sistemas de ingestión casi en tiempo real. Actualmente construyo infraestructura de datos de alto volumen en una corporación guatemalteca, mientras avanzo en una Licenciatura en Ciencias de la Computación.</p>
+      </div>
+      <div class="about-meta reveal">
+        <div class="meta-card">
+          <div class="meta-label"><span data-lang="en">Location</span><span data-lang="es">Ubicación</span></div>
+          <div class="meta-value">Guatemala City, GT · UTC-6</div>
+        </div>
+        <div class="meta-card">
+          <div class="meta-label"><span data-lang="en">Experience</span><span data-lang="es">Experiencia</span></div>
+          <div class="meta-value"><span data-lang="en">4+ years in Data Engineering</span><span data-lang="es">4+ años en Ingeniería de Datos</span></div>
+        </div>
+        <div class="meta-card">
+          <div class="meta-label"><span data-lang="en">Languages</span><span data-lang="es">Idiomas</span></div>
+          <div class="meta-value">Spanish (Native) · English (Advanced) · German (Basic)</div>
+        </div>
+        <div class="meta-card">
+          <div class="meta-label">GitHub</div>
+          <div class="meta-value"><a href="https://github.com/franzj43" style="color:var(--amber);text-decoration:none;">github.com/franzj43</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-num">02</span>
+      <h2 class="section-title"><span data-lang="en">Tech Stack</span><span data-lang="es">Stack Técnico</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-group reveal">
+        <div class="skill-group-title"><span data-lang="en">Languages</span><span data-lang="es">Lenguajes</span></div>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">JavaScript</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="skill-group-title"><span data-lang="en">Big Data & Streaming</span><span data-lang="es">Big Data y Streaming</span></div>
+        <div class="skill-tags">
+          <span class="skill-tag">Apache Spark</span>
+          <span class="skill-tag">Spark Structured Streaming</span>
+          <span class="skill-tag">Kafka</span>
+          <span class="skill-tag">Batch Pipelines</span>
+          <span class="skill-tag">Near-RT Pipelines</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="skill-group-title"><span data-lang="en">Databases</span><span data-lang="es">Bases de Datos</span></div>
+        <div class="skill-tags">
+          <span class="skill-tag">BigQuery</span>
+          <span class="skill-tag">Snowflake</span>
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">SQL Server</span>
+          <span class="skill-tag">MongoDB</span>
+          <span class="skill-tag">Redis</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="skill-group-title"><span data-lang="en">Data Engineering</span><span data-lang="es">Ingeniería de Datos</span></div>
+        <div class="skill-tags">
+          <span class="skill-tag">ETL / ELT</span>
+          <span class="skill-tag">Data Warehousing</span>
+          <span class="skill-tag">Dimensional Modeling</span>
+          <span class="skill-tag">Data Quality</span>
+          <span class="skill-tag">CDC / Debezium</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="skill-group-title">ML & AI</div>
+        <div class="skill-tags">
+          <span class="skill-tag">ML Pipelines</span>
+          <span class="skill-tag">Anomaly Detection</span>
+          <span class="skill-tag">NLP</span>
+          <span class="skill-tag">Generative AI</span>
+          <span class="skill-tag">RAG</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="skill-group-title"><span data-lang="en">Cloud & Infra</span><span data-lang="es">Cloud e Infraestructura</span></div>
+        <div class="skill-tags">
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">Kubernetes</span>
+          <span class="skill-tag">AWS</span>
+          <span class="skill-tag">GCP</span>
+          <span class="skill-tag">Azure</span>
+          <span class="skill-tag">Apache Airflow</span>
+        </div>
+      </div>
+      <div class="skill-group reveal">
+        <div class="skill-group-title">DevOps & BI</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Git / CI-CD</span>
+          <span class="skill-tag">Tableau</span>
+          <span class="skill-tag">Power BI</span>
+          <span class="skill-tag">REST / SOAP APIs</span>
+          <span class="skill-tag">Observability</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-num">03</span>
+      <h2 class="section-title"><span data-lang="en">Experience</span><span data-lang="es">Experiencia</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-date">
+          <span data-lang="en">Present</span><span data-lang="es">Actualidad</span>
+        </div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-body">
+          <div class="timeline-role"><span data-lang="en">Data & Development Engineer</span><span data-lang="es">Ingeniero de Data y Desarrollo</span></div>
+          <div class="timeline-company">Corporación Fénix · Guatemala, GT</div>
+          <ul class="timeline-bullets">
+            <li data-lang="en">Designed and operated high-volume data pipelines for operational monitoring, analytics, and ML use cases using Python, SQL, Spark, and ETL/ELT architectures.</li>
+            <li data-lang="en">Built and maintained batch and near-real-time ingestion pipelines enabling performance metrics, trend analysis, and anomaly detection across business operations.</li>
+            <li data-lang="en">Collaborated with analytics and ML teams to define actionable metrics, data models, and datasets powering dashboards and automated decision systems.</li>
+            <li data-lang="es">Diseñé y operé pipelines de datos de alto volumen para monitoreo operativo, analítica y ML usando Python, SQL, Spark y arquitecturas ETL/ELT.</li>
+            <li data-lang="es">Desarrollé pipelines de ingestión batch y casi en tiempo real para métricas de desempeño, tendencias y detección de anomalías.</li>
+            <li data-lang="es">Colaboré con equipos de analítica y ML para definir métricas, modelos de datos y conjuntos que alimentan dashboards y sistemas automatizados.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-date">May 2024 – Sep 2025</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-body">
+          <div class="timeline-role"><span data-lang="en">Data Analytics & Projects Specialist</span><span data-lang="es">Especialista Data Analytics y Proyectos</span></div>
+          <div class="timeline-company">Banco Industrial S.A. · Guatemala, GT</div>
+          <ul class="timeline-bullets">
+            <li data-lang="en">Developed and operated scalable batch ETL pipelines in Python and SQL feeding data warehouses for BI and advanced analytics.</li>
+            <li data-lang="en">Designed dimensional and analytical data models optimized for executive dashboards and ML workloads.</li>
+            <li data-lang="en">Performed analysis and optimization of complex SQL queries, significantly improving latency and resource efficiency.</li>
+            <li data-lang="es">Desarrollé pipelines ETL batch escalables en Python y SQL para data warehouses de BI y analítica avanzada.</li>
+            <li data-lang="es">Diseñé modelos de datos dimensionales y analíticos optimizados para dashboards ejecutivos y cargas de ML.</li>
+            <li data-lang="es">Realicé análisis y optimización de consultas SQL complejas, mejorando latencia y eficiencia de recursos.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-date">Jan 2023 – May 2024</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-body">
+          <div class="timeline-role"><span data-lang="en">General Management Assistant / Data Analyst</span><span data-lang="es">Asistente de Gerencia General / Analista de Datos</span></div>
+          <div class="timeline-company">Mediciones Ambientales S.A. · Guatemala, GT</div>
+          <ul class="timeline-bullets">
+            <li data-lang="en">Built automated data processing and report generation pipelines in Python, reducing manual work and improving delivery times.</li>
+            <li data-lang="en">Implemented data quality validations and controls across datasets used for regulatory and technical reporting.</li>
+            <li data-lang="en">Applied ML techniques for document and email classification, improving operational responsiveness.</li>
+            <li data-lang="es">Desarrollé pipelines automatizados de procesamiento de datos y reportes en Python, reduciendo trabajo manual.</li>
+            <li data-lang="es">Implementé validaciones y controles de calidad en datasets para reportes regulatorios y técnicos.</li>
+            <li data-lang="es">Apliqué técnicas de ML para clasificación de documentos y correos, mejorando la capacidad de respuesta operativa.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-date">Oct 2019 – Nov 2022</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-body">
+          <div class="timeline-role"><span data-lang="en">Supply Chain Coordinator / QA Lab Analyst</span><span data-lang="es">Coordinador de Aprovisionamiento / Laboratorista QA</span></div>
+          <div class="timeline-company">Cervecería Centro Americana S.A. · Guatemala, GT</div>
+          <ul class="timeline-bullets">
+            <li data-lang="en">Coordinated supply chain procurement processes and quality assurance operations at one of Central America's largest breweries.</li>
+            <li data-lang="es">Coordiné procesos de aprovisionamiento y operaciones de aseguramiento de calidad en una de las cervecerías más grandes de Centroamérica.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-num">04</span>
+      <h2 class="section-title"><span data-lang="en">Projects</span><span data-lang="es">Proyectos</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-client">Soluciones Costméticas S.A.</div>
+        <div class="project-title"><span data-lang="en">Production Orders System</span><span data-lang="es">Sistema de Órdenes de Producción</span></div>
+        <div class="project-desc">
+          <span data-lang="en">Fullstack application that covers from document parsing for DB creation to the creation of PDF files based on the product ID in a web application.</span>
+          <span data-lang="es">Aplicación fullstack que comprende desde el parseo de las órdenes de producción para la creación de una base de datos relacional a la creación de PDF haciendo uso del código del producto en una aplicación web.</span>
+        </div>
+        <div class="project-stack">
+          <span class="stack-tag">Python</span><span class="stack-tag">React</span><span class="stack-tag">ETL/ELT</span><span class="stack-tag">Docker</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-client">Soluciones Costméticas S.A.</div>
+        <div class="project-title"><span data-lang="en">Personal Hair Colorimetry Assistant</span><span data-lang="es">Asistente Personal de Colorimetría Capilar</span></div>
+        <div class="project-desc">
+          <span data-lang="en">AI chatbot that offer assitance to customers that want to dye their hair. Created using Gemini API.</span>
+          <span data-lang="es">Chatbot de inteligencia artifical que ofrece soporte para clientes que desean pintarse el pelo. Creado utilizando el API de Gemini.</span>
+        </div>
+        <div class="project-stack">
+          <span class="stack-tag">Python</span><span class="stack-tag">AI</span><span class="stack-tag">Flask</span><span class="stack-tag">Javascript</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-num">05</span>
+      <h2 class="section-title"><span data-lang="en">Education</span><span data-lang="es">Educación</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card reveal">
+        <div class="edu-degree"><span data-lang="en">BSc Computer Science</span><span data-lang="es">Licenciatura en Ciencias de la Computación</span></div>
+        <div class="edu-school">Goldsmiths, University of London · <span data-lang="en">Remote · Expected Sep 2027</span><span data-lang="es">Remoto · Esperado Sep 2027</span></div>
+        <div class="edu-detail"><span data-lang="en">In progress — combining ML, systems, and software engineering fundamentals.</span><span data-lang="es">En curso — combinando ML, sistemas y fundamentos de ingeniería de software.</span></div>
+      </div>
+      <div class="edu-card reveal">
+        <div class="edu-degree"><span data-lang="en">BSc Chemical Engineering</span><span data-lang="es">Licenciatura en Ingeniería Química</span></div>
+        <div class="edu-school">Universidad del Valle de Guatemala · <span data-lang="en">May 2023</span><span data-lang="es">Mayo 2023</span></div>
+        <div class="edu-detail"><span data-lang="en">Strong foundation in process engineering, systems thinking, and quantitative analysis — directly applicable to data pipeline design.</span><span data-lang="es">Sólida base en ingeniería de procesos, pensamiento sistémico y análisis cuantitativo — directamente aplicable al diseño de pipelines.</span></div>
+        <span class="edu-badge">Cum Laude</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-inner">
+      <div class="contact-text reveal">
+        <h2><span data-lang="en">Let's build<br><em>something</em><br>together.</span><span data-lang="es">Construyamos<br><em>algo</em><br>juntos.</span></h2>
+        <p>
+          <span data-lang="en">Open to freelance and consulting work across fullstack development, data engineering, pipeline architecture, and ML infrastructure.</span>
+          <span data-lang="es">Disponible para proyectos freelance y consultoría en desarrollo fullstack, ingeniería de datos, arquitectura de pipelines e infraestructura ML.</span>
+        </p>
+      </div>
+      <div class="contact-links reveal">
+        <a href="https://linkedin.com/in/franz-much/" class="contact-link" target="_blank">
+          <div>
+            <span class="contact-link-label">LinkedIn</span>
+            <span class="contact-link-value">linkedin.com/in/franz-much</span>
+          </div>
+          <span class="contact-link-arrow">↗</span>
+        </a>
+        <a href="https://github.com/franzj43" class="contact-link" target="_blank">
+          <div>
+            <span class="contact-link-label">GitHub</span>
+            <span class="contact-link-value">github.com/franzj43</span>
+          </div>
+          <span class="contact-link-arrow">↗</span>
+        </a>
+        <a href="mailto:franzj43@gmail.com" class="contact-link">
+          <div>
+            <span class="contact-link-label">Email</span>
+            <span class="contact-link-value">franzj43@gmail.com</span>
+          </div>
+          <span class="contact-link-arrow">↗</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span class="footer-copy">© 2026 Franz Much · Guatemala City</span>
+  <div class="footer-links">
+    <a href="https://github.com/franzj43" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/franz-much/" target="_blank">LinkedIn</a>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
